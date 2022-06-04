@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 /* Override */
+
+html{
+    font: 1rem;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    background-color: #111111;
 }
 
 /* Navigation */
@@ -13,23 +18,24 @@
 li, a, button{
     font-family: "Rubik", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     color: #edf0f1;
     text-decoration: none;
 }
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 30px 10%;
+    /* position: fixed; */
 }
 
 .logo{
     cursor: pointer;
-    max-width: 25%;  
-    height: auto;  
-    
+    max-width: 100%; 
+    padding-right: 20px;
+    height: 100px;
 }
 
 .nav-links{
@@ -46,12 +52,13 @@ header{
 }
 
 .nav-links li a:hover{
-    color: rgb(221, 23, 23);
+    color: rgb(255,21,21);
 }
 
 button{
+    margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(255,21,21,1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -60,4 +67,31 @@ button{
 
 button:hover{
     background-color: rgba(0,0,0,0.8);
+}
+
+/* Body */
+
+.body-container{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.bodyheader-text{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.bodyheader{
+    background-color: #edf0f1;
+    /*font-weight: bold;*/
+    padding: 50px;
+}
+
+.images{
+    max-width: 100%
+  }
+  
+.body-image{
+    flex-basis: 40%
 }
