@@ -10,7 +10,7 @@ html{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #111111;
+    background-color: #000000;
 }
 
 /* Navigation */
@@ -83,11 +83,15 @@ button:hover{
 
 .bodyforeground, .bodyforeground-subtext{
     background-color: #edf0f1;
-    padding: 50px 50px 0px;
+    padding: 50px 50px 50px;
 }
 
 .bodyforeground{
     font-size: 2rem;
+    font-weight: 900;
+}
+
+.bodyforeground-subtext{
     font-weight: 900;
 }
 
@@ -100,12 +104,17 @@ button:hover{
 
 .bodymiddle, .bodymiddle-subtext{
     background-color: #edf0f1;
-    padding: 50px 50px 0px;
+    padding: 50px 50px 50px;
 }
 
 .bodymiddle{
     font-size: 2rem;
     font-weight: 900;
+}
+
+.bodymiddle-subtext{
+    max-width: 400px;
+    overflow-wrap: break-word;
 }
 
 .bodymiddle-text{
@@ -123,6 +132,11 @@ button:hover{
 .bodyend{
     font-size: 2rem;
     font-weight: 900;
+}
+
+.bodyend-subtext{
+    max-width: 400px;
+    overflow-wrap: break-word;
 }
 
 .bodyend-text{
