@@ -71,27 +71,74 @@ button:hover{
 
 /* Body */
 
-.body-container{
+/* foreground */
+
+.foreground-container{
     display: flex;
-    align-items: center;
-    justify-content: center
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2%;
 }
 
-.bodyheader-text{
-    font-size: 20px;
-    padding-left: 20px;
-}
-
-.bodyheader{
+.bodyforeground, .bodyforeground-subtext{
     background-color: #edf0f1;
-    /*font-weight: bold;*/
-    padding: 50px;
+    padding: 50px 50px 0px;
 }
+
+.bodyforeground{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.bodyforeground-text{
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+/* middle ground */
+
+.bodymiddle, .bodymiddle-subtext{
+    background-color: #edf0f1;
+    padding: 50px 50px 0px;
+}
+
+.bodymiddle{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.bodymiddle-text{
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+/* end */
+
+.bodyend, .bodyend-subtext{
+    background-color: #edf0f1;
+    padding: 50px 50px 0px;
+}
+
+.bodyend{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.bodyend-text{
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+/* images */
 
 .images{
-    max-width: 100%
+    max-width: 100%;
+    height: 500px;
+    
   }
   
-.body-image{
-    flex-basis: 40%
+.body-image{ 
+    max-width: 100%;
+    height: 500px;
 }
