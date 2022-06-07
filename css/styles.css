@@ -87,7 +87,7 @@ button:hover{
 }
 
 .bodyforeground{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 900;
 }
 
@@ -96,7 +96,7 @@ button:hover{
 }
 
 .bodyforeground-text{
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-left: 1rem;
 }
 
@@ -108,17 +108,18 @@ button:hover{
 }
 
 .bodymiddle{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 900;
 }
 
 .bodymiddle-subtext{
     max-width: 400px;
     overflow-wrap: break-word;
+    font-weight: 900;
 }
 
 .bodymiddle-text{
-    font-size: 1rem;
+    font-size: 1.35rem;
     padding-left: 1rem;
 }
 
@@ -126,21 +127,22 @@ button:hover{
 
 .bodyend, .bodyend-subtext{
     background-color: #edf0f1;
-    padding: 50px 50px 0px;
+    padding: 50px 50px 50px;
 }
 
 .bodyend{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 900;
 }
 
 .bodyend-subtext{
     max-width: 400px;
     overflow-wrap: break-word;
+    font-weight: 900;
 }
 
 .bodyend-text{
-    font-size: 1rem;
+    font-size: 1.35rem;
     padding-left: 1rem;
 }
 
