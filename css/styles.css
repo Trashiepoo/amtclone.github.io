@@ -32,7 +32,6 @@ header{
 }
 
 .logo{
-    cursor: pointer;
     max-width: 100%; 
     padding-right: 20px;
     height: 100px;
@@ -144,6 +143,7 @@ button:hover{
 .bodyend-text{
     font-size: 1.35rem;
     padding-left: 1rem;
+    margin-bottom: 50px;
 }
 
 /* coaches */
@@ -176,4 +176,10 @@ h1{
 .body-image{ 
     max-width: 100%;
     height: 500px;
+    margin-bottom: 50px;
+}
+
+.youtube-videos{
+    width: 420px;
+    height: 315px;
 }
