@@ -238,8 +238,17 @@ h1{
 }
 
 .youtube-videos{
+    display: inline-flex;
+    flex-direction: row;
+    align-content: space-between;
     width: 420px;
     height: 315px;
+    margin: 50px;
+    padding-left: 30%;
+}
+
+.videos{
+    align-self: flex-start;
 }
 
 /* coaches.html */
