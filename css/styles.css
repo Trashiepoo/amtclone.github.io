@@ -161,12 +161,22 @@ h1{
     margin-bottom: 2%;
 }
 
-.placeholder{
+.amtcoaches{
     display: inline-block;
     width: 500px;
     height: 160px;
     list-style: none;
     padding: 50px 50px 50px;
+}
+
+.coachtitle{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.coachsubtitle{
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 /*
@@ -245,10 +255,6 @@ h1{
     height: 315px;
     margin: 50px;
     padding-left: 30%;
-}
-
-.videos{
-    align-self: flex-start;
 }
 
 /* coaches.html */
