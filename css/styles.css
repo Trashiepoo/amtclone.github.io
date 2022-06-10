@@ -179,49 +179,16 @@ h1{
     font-weight: 400;
 }
 
-/*
-
-coaches old
-
-h1{
-    color: #edf0f1;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 2%;
-}
-
-.coaches-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 2%;
-}
-
-.coach, .coach-subtext{
-    color: #edf0f1;
-}
-
-.coach{
-    font-size: 2.5rem;
-    font-weight: 900;
-}
-
-.coach-subtext{
-    font-weight: 900;
-}
-
-.coach-text{
-    font-size: 1.5rem;
-    padding-left: 1rem;
-}
-*/
-
 /* schedule */
 
-
+.lazyclassname{
+    color: #edf0f1;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
 
 /* pricing */
 
@@ -262,5 +229,14 @@ h1{
 .coachimages{
     max-width: 100%;
     height: 750px;
-    
+}
+
+/* schedule */
+
+.schedule{
+    max-width: 100%;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
