@@ -72,6 +72,25 @@ button:hover{
     background-color: rgba(40, 40, 40, 0.8);
 }
 
+/* Footer */
+
+footer{
+    border-top: 1px solid rgba(255,21,21,1);
+}
+
+.footer-info{
+    color: #edf0f1;
+    margin: 2%;
+}
+
+h2{
+    color: #edf0f1;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 2%;
+}
+
 /* Body */
 
 /* foreground */
