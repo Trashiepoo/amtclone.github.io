@@ -224,6 +224,18 @@ h1{
     flex-direction: row;
 }
 
+.ingredients{
+    color: #edf0f1;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: repeat(3, 50px);
+    row-gap: 50px;
+    grid-auto-flow: row;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 /* pricing */
 
 
@@ -273,4 +285,10 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.ingredients-images{
+    max-width: 100%;
+    height: 90px;
+    border-radius: 50%;
 }
