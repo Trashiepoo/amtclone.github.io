@@ -78,12 +78,6 @@ footer{
     border-top: 1px solid rgba(255,21,21,1);
 }
 
-.footer-info{
-    color: #edf0f1;
-    margin: 2%;
-    font-size: 1.5rem;
-}
-
 h2{
     color: #edf0f1;
     display: flex;
@@ -91,6 +85,25 @@ h2{
     flex-direction: row;
     margin: 2%;
     font-size: 2rem;
+}
+
+.footer-info{
+    color: #edf0f1;
+    margin: 2%;
+    font-size: 1.5rem;
+    padding-left: 30%;
+    padding-right:25%;
+}
+
+#footer-info{
+    float:left;
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+
+#footer-address{
+    float:right;
+    font-weight: 900;
 }
 
 /* Body */
