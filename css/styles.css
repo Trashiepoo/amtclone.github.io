@@ -238,7 +238,26 @@ h1{
 
 /* pricing */
 
+.pricing-container{
+    color: #edf0f1;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: repeat(3, 150px);
+    column-gap: 25%;
+    row-gap: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
 
+/* .pricing-membership{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+} */
 
 /* contact */
 
@@ -291,4 +310,11 @@ h1{
     max-width: 100%;
     height: 90px;
     border-radius: 50%;
+}
+
+/* pricing */
+
+.pricing-images{
+    max-width: auto;
+    height: 240px;
 }
